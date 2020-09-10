@@ -1,0 +1,10 @@
+.menu {
+	background-color: #229395;
+	font-size: 30px;
+	color:#fff;
+}
+
+.menu .elemento-especial {
+	font-size: 200px;
+	color: yellow;
+}

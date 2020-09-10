@@ -1,0 +1,44 @@
+div {
+	height: 90px;
+	width: 90px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.super-contenedor{
+	width: 500px;
+	height: 500px;
+	background-color: green;
+	border: 5px solid red;
+	position: relative;
+	left: 200px;
+	top: 50px;
+}
+
+.caja-1 {
+	background-color: red;
+	position: absolute;
+}
+
+
+.caja-2 {
+	background-color: blue;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.caja-3 {
+	background-color: yellow;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.caja-4 {
+	background-color: purple;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

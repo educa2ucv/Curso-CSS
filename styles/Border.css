@@ -1,0 +1,54 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+}
+
+.contenedor {
+	background-color: #7acbcd;
+	margin: 160px auto;
+	text-align: center;
+	width: 50%;
+
+	/*
+	Bordes -> Ancho (border-width),
+		 	  Estilos (border-style)
+		 	  Color (border-color)
+	*/
+
+	/*border-width: 20px 10px 50px 80px;*/
+	/*
+		Valores para border-style:
+			none, hidden, solid, dotted, dashed
+			double, groove, ridge, inset, outset
+	*/
+	/*border-style: ridge groove dashed dotted;
+	border-color: #229395 #555 yellow red;*/
+
+	border: 5px double #555;
+
+	/*border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;*/
+
+	border-radius: 10px;
+
+	box-shadow: 15px 20px 20px 2px #999,
+	15px 20px 20px 5px #229395,
+	25px 20px 20px 5px yellow;	
+
+}
+
+.contenedor p {
+	font-size: 1.3em;
+	padding: 50px;
+	line-height: 35px;
+}

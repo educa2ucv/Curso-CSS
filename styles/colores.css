@@ -1,0 +1,11 @@
+.contenedor {
+	border: 5px solid #000;
+	margin: 100px auto;
+	width: 900px; 
+	height: 400px;
+
+	/*background: linear-gradient(to left,#f00,#00f);*/
+	background: radial-gradient(circle at right top,#f00,#0f0,#00f);
+}
+
+

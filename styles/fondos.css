@@ -1,0 +1,32 @@
+/*
+	Propiedades para Fondos:
+
+		*background-color
+		*background-image:url();
+		*background-repeat (repeat-x,repeat-y,repeat,space,round,no-repeat)
+		*background-position (top, left, right, bottom, center, porcentajes)
+*/
+
+.contenedor {
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	margin: auto;
+	width: 500px; height: 600px;
+	border: 5px solid #000;
+	overflow-y: scroll;
+	color:#000;
+
+	background-image: url("../img/1.png");
+	background-repeat: repeat-x;
+	background-position: 50%;
+	
+}
+
+.titulo {
+	text-align: center;
+}
+
+.texto {
+	padding: 5px;
+	text-align: center;
+}

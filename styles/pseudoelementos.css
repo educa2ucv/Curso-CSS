@@ -1,0 +1,39 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+	::first-line
+	::first-letter
+	::before
+	::after
+*/
+
+.texto {
+	background-color: #7acbcd;
+	border-radius: 45px;
+	box-shadow: 12px 12px 20px #000;
+	color: #222;
+	font-size: 2em;
+	margin: 10% auto;
+	padding: 1.25em;
+	text-align: center;
+	width: 50%;
+}
+
+.texto::before {
+	content: "Inicio";
+	color:blue;
+	font-size: 80px;
+}
+
+.texto::after {
+	content: "Fin";
+	color:red;
+	font-size: 80px;
+}

@@ -1,0 +1,11 @@
+.menu {
+	background-color: #229395;
+	color: #fff;
+	text-align: center;
+}
+
+.menu .menu__item {
+	display: inline;
+	margin-right: 10px;
+	padding: 10px;
+}
